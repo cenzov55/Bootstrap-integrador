@@ -2,6 +2,17 @@
     font-family: sans-serif,Arial, Helvetica;
 }
 
+@media (max-width: 480px) {
+    #fondo-text {
+        position: absolute;
+        bottom: 0;
+        padding: 0 0em 5em 0 !important;
+        opacity: 1;
+        color: white;
+    }
+}
+
+html, body { overflow-x: hidden; }
 
 .centrado {
     text-align: center;
