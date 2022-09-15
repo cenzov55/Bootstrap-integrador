@@ -6,7 +6,7 @@
     #fondo-text {
         position: absolute;
         bottom: 0;
-        padding: 0 0em 5em 0 !important;
+        padding: 0em 1em 5em 2em !important;
         opacity: 1;
         color: white;
     }
