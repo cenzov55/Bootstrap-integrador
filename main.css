@@ -10,6 +10,9 @@
         opacity: 1;
         color: white;
     }
+    #nav1 {
+        padding-left: 0em !important;
+    }
 }
 
 html, body { overflow-x: hidden; }
