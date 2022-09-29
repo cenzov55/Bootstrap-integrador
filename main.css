@@ -97,7 +97,8 @@ footer a {
 }
 
 footer a:hover {
-            color:white
+            color:white;
+            text-decoration-line: underline;
 }
 
 .footCol {
