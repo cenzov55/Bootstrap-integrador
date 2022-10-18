@@ -82,8 +82,14 @@ nav li a:hover {
     color:white !important;
 }
 
-#btnSubmit {
+.btnSubmit {
     background-color:  rgba(150,201,62,255);
+    color: white;
+}
+
+.btnSubmit:hover {
+    color:  rgba(150,201,62,255) !important;
+
 }
 
 footer {

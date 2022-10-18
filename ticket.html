@@ -1,0 +1,128 @@
+<section >
+    <div class="container mt-5 pt-5">
+        <div class="row d-flex justify-content-center gap-4">
+
+
+            <div class="col-lg-2 col-sm-12 col-md-6 cards border border-primary">
+
+                <div class="card border-light">
+
+
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-bold titulo">Estudiante</h5>
+                        <p class="card-text">Tienen un descuento
+                            <br>
+                            <br>
+                            <strong>80%</strong>
+                            <br>
+                            <br>
+                            <small class="text-muted">*presentar documentación</small>
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+            <div class="col-lg-2 col-sm-12 col-md-6 cards border border-success">
+
+                <div class="card border-light">
+
+
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-bold titulo">Trainee</h5>
+                        <p class="card-text">Tienen un descuento
+                            <br>
+                            <br>
+                            <strong>50%</strong>
+                            <br>
+                            <br>
+                            <small class="text-muted">*presentar documentación</small>
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <div class="col-lg-2 col-sm-12 col-md-6 cards border border-warning ">
+
+                <div class="card border-light">
+
+
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-bold titulo">Junior</h5>
+                        <p class="card-text">Tienen un descuento
+                            <br>
+                            <br>
+                            <strong>15%</strong>
+                            <br>
+                            <br>
+                            <small class="text-muted">*presentar documentación</small>
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container mt-3 mb-5">
+        
+        <div class="row d-flex justify-content-center">
+            <div class="col-8">
+                <p class="text-center text-muted mb-0">VENTA</p>
+                <h1 class="text-center">VALOR DE TICKET $200</h1>
+
+                <form id="ticketForm">
+
+                    <div class="input-group mb-3 gap-3">
+                        <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
+                        <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido">
+                      </div>
+                      <input type="text" class="form-control" placeholder="Correo" name="email">
+
+                      <div class='input-group mb-3 gap-3 mt-3'>
+                            
+                        <div class="col">
+                            <label for="cantInput" class="form-label">Cantidad</label>
+                            <input id="cantInput" name="cantInput" type="text" class="form-control" placeholder="cantidad" aria-label="Cantidad">
+                        </div>
+
+                        <div class="col">
+                            <label for="estInput" class="form-label">Categoria</label>
+                            <select id="estInput"  class="form-select">
+                                <option>Estudiante</option>
+                                <option>Trainee</option>
+                                <option>Junior</option>
+                              </select>
+                        </div>
+                      </div>
+                      <div class="alert alert-info" id='totalPagarText'>
+                        Total a pagar: $
+                      </div>
+                      <div class="row">
+                          
+                          <div class="d-grid col">
+                            <button class="btn btnSubmit" id='btnBorrar' type="button">BORRAR</button>
+                          
+                          </div>
+                          <div class="d-grid col">
+                            <button class="btn btnSubmit" id='btnResumen' type="button">RESUMEN</button>
+                          
+                          </div>
+                      </div>
+                      
+                  </form>
+            </div>
+        </div>
+</div>
+</div>
+</section>
