@@ -84,16 +84,16 @@
                 <form id="ticketForm">
 
                     <div class="input-group mb-3 gap-3">
-                        <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
-                        <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido">
+                        <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre" minlength="3" maxlength="20">
+                        <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido" minlength="3" maxlength="20">
                       </div>
-                      <input type="text" class="form-control" placeholder="Correo" name="email">
+                      <input type="text" class="form-control" placeholder="Correo" name="email" minlength="3" maxlength="20">
 
                       <div class='input-group mb-3 gap-3 mt-3'>
                             
                         <div class="col">
                             <label for="cantInput" class="form-label">Cantidad</label>
-                            <input id="cantInput" name="cantInput" type="text" class="form-control" placeholder="cantidad" aria-label="Cantidad">
+                            <input id="cantInput" name="cantInput" type="number" class="form-control" placeholder="cantidad" aria-label="Cantidad"  max="999">
                         </div>
 
                         <div class="col">

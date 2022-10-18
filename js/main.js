@@ -23,6 +23,7 @@ window.onload=(function(){
 
 window.addEventListener('hashchange', function (e) {
 
+    if(window.location.hash == '#home'){window.location.hash = 'home'; location.reload();};
     if(window.location.hash != '#formulario'){return false};
 
     const cargarTicketForm =   async ()=> {
