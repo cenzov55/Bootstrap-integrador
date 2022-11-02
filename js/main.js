@@ -56,15 +56,45 @@ window.addEventListener('hashchange', function (e) {
                     if(Categoria == "Junior"){total -= total* descuentos.Junior}
                     //Muestra resultado
                     totalText.innerHTML += total;
-
                    })
+
+
+                                       //BOTONES TICKETS
+                                     const  btnTickets = document.querySelectorAll('.card-body')
+                                     select = document.querySelector('select')
+                                       btnTickets.forEach(btnTicket => {
+                                        
+                                        btnTicket.addEventListener('click', ()=>{
+                                        if(btnTicket.id == 'btnEstudiante'){ select.value = 'Estudiante' }
+                                        if(btnTicket.id == 'btnTrainee'){ select.value = 'Trainee'}
+                                        if(btnTicket.id == 'btnJunior'){  select.value = 'Junior'}
+
+
+                                       })
+                       
+                       
+                                   });
                   })
                 }
                 cargarTicketForm()
+              
+
                 })
  
 
 
 
+
+
+
+
+                let selectTicket =(ticket)=>{
+                    selects = document.querySelectorAll('select')
+                    l(select)
+                    if(ticket == "Estudiante"){}
+                    if(ticket == "Trainee"){}
+                    if(ticket == "Junior"){}
+                
+                                }
 
 
